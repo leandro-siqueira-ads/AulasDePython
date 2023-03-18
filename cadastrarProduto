@@ -1,1 +1,15 @@
-
+print("1. Cadastrar produto")
+print("2. Alterar produto")
+print("3. Remover produto")
+print("4. Exibir produto")
+opcao = int(input("Escolha uma opção [1-4]: "))
+if (opcao == 1):
+  print("Novo produto cadastrado...")
+elif (opcao ==2):
+  print("Produto alterado...")
+elif (opcao ==3):
+  print("Produto removido...")
+elif (opcao == 4):
+  print("Todos os produtos...")
+else:
+  print("Opcao inválida")
